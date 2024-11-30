@@ -1,0 +1,7 @@
+PyPDF2
+pillow
+starlette
+uvicorn
+loguru
+python-multipart
+pdf2image
