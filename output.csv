@@ -1,0 +1,156 @@
+Here's the extracted data in CSV format:
+
+```csv
+Question No., Question, Option A, Option B, Option C, Option D, Probable Correct Answer
+1,A neuron with 4 inputs has a weight vector w = [1, 2, 3, 4]' and bias 0. The activation function is linear, given by f(net) = 2 * net. If the input vector is x = [5, 6, 7, 8]', the output of the neuron will be ____.,50,58,112,118,
+2,The equations 3x - y = 4 and x - 4y = 4, have ____.,no solution for x and y,a solution for positive x and y,a solution for negative x and y,solution for all x,
+3,Which of the following manages the switching function in GSM?,MSC,BSS,NSS,OSS,B
+4,Consider the following two statements:\
+S1 : In SaaS, elastic computing applications are provisioned.\
+S2 : Amazon's Cloud Service Model (EC2) is a well known cloud storage.,Both S1 and S2 are correct.,S1 is correct but S2 is not correct.,S2 is correct but S1 is not correct.,Neither S1 nor S2 are correct.,B
+5,Match the following:,(a)-(1), (b)-(3), (c)-(2), (d)-(4),(a)-(4), (b)-(2), (c)-(3), (d)-(1),(a)-(2), (b)-(3), (c)-(1), (d)-(4),(a)-(1), (b)-(2), (c)-(4), (d)-(3),A
+6,Consider the following relation in a database, Works(employee_name, company_name, salary), Which of the following query always finds those companies whose average salary is strictly greater than the employee average salary at ‘Samsung’?,SELECT company_name\
+FROM Works\
+GROUP BY company_name\
+HAVING avg(salary) > (select avg(salary) from Works where company_name = 'Samsung'),SELECT company_name\
+FROM Works as w,\
+(select avg(salary) as avg_ from Works where company_name = 'Samsung')\
+where w.salary > avg_ and w.company_name = 'Samsung',Both (A) and (B),Neither (A) nor (B),A
+7,What is needed by k-means clustering?,Number of clusters,Distance metrics,Location of the cluster Centroids,All of the above,D
+8,How many standard exceptions exist in C++?,4,5,7,13,
+9,Which of the following technique(s) uses interrupts to take attention of CPU/Processor?,Programmed I/O,Interrupt driven I/O,Direct Memory Access (DMA),I and II,III only,II and III,II and III above,
+10,The statement (p ∨ q) ∧ (¬p → r) → (q ∨ r) is ____.,a tautology,a contradiction,neither a tautology nor a contradiction,logically equivalent to ¬p → ¬q → r,A
+11,Which of the following optimization problems can be better solved with GA?,0-1 knapsack problem,Travelling salesman problem,Job shop scheduling problem,Binary search tree construction problem,B
+12,Under what condition can a vertex combine and distribute flow in any manner?,It may violate edge capacities.,The vertex should be a source vertex.,The vertex should be a source or a sink vertex.,The vertex should be a sink vertex.,C
+13,Consider a relation R(ABCD) with functional dependency set F = {AB → C, C → D, D → A}. Which of the following statements is true about the given scheme R?,I. Minimal cover for the given set F does not exist.\
+II. The candidate key of the given schema R is 'AB'.,Only I,Only II,Both I and II,Neither I nor II,B
+14,What is true about an Abstract class?,An Abstract class cannot contain a virtual function as its member.,If a class is declared as an Abstract class to create a derived class.,An Abstract class cannot be inherited.,All of the above are true.,C
+15,What is the availability of a software with following figures?\
+Mean Time Between Failures (MTBF) = 40 days, Mean Time to Repair (MTTR) = 10 hours.,70%,80%,90%,99%,D
+16,Which GA encoding scheme suffers from the Hamming Cliff problem?,Binary coded GA,Real coded GA,Order coded GA,Tree coded GA,A
+17,The transport layer protocols used for real time multimedia, file transfer, DNS and email respectively are:,TCP - UDP - UDP - TCP,UDP - TCP - UDP - TCP,TCP - UDP - TCP - UDP,UDP - TCP - TCP - UDP,B
+18,Which one of the following is the correct order in which a software project manager estimates various project parameters while using COCOMO?,Size, effort, duration, cost,Cost, effort, duration, size,Size, cost, duration, effort,Cost, duration, effort, size,A
+19,A multilevel page table is preferred in comparison to a single level page table for translating virtual address to physical address because ____.,it writes the memory location to read it in page.,it reduces a memory access time.,it is required by the translation lookaside buffer.,it helps to reduce the number of page faults needed to implement the virtual address space of process.,D
+20,The Cohen-Sutherland algorithm divides the region into ____ number of spaces.,4,8,16,32,B
+21,What is usually regarded as the Von-Neuman bottleneck?,Processor Memory Interface,Control Unit,Arithmetic Logic Unit,Instruction Set,A
+22,An Agent is composed of ____.,Architecture and Program,Architecture,Perceptions,Architecture and Actions,D
+23,What is the identity element in the group G = {2, 4, 6, 8} under multiplication modulo 10?,2,4,6,8,C
+24,In Bresenham's line algorithm (where slope is less than 1), the initial value of decision parameter PK is ____.,2Δy - Δx,Δy - 2Δx,2Δy - 2Δx,Δx - 2Δy,A
+25,How many cycles are required for a 100 MHz processor to execute a program which requires 5 seconds of CPU time?,10⁹,10⁸,50 × 10⁷,50 × 10⁶,D
+26,The prefix form of A - B * C + D / E is ____.,- + A * B C / D E,- A * B C + / D E,- A + B * C / D E,- A / B * C + D E,C
+27,The example(s) of Distance Vector Protocol is/are ____.\
+I. Open Shortest Path First (OSPF)\
+II. Routing Information Protocol (RIP)\
+III. Interior Gateway Routing Protocol (IGRP),I only,II only,I and II only,All I, II and III,B
+28,Which of the following algorithm does not face local maxima problem?,Simple HC,Steepest Ascent HC,Best First Search,All of the above,C
+29,The boolean function A + BC is a reduced form of ____.,AB + BC,A'B + A'C,(A + B)(A + C),A'B + C,C
+30,Consider a system with processor A program is run with 4 processors as compared to the single processor system. The value of α is given. There is speed gain of α when we run this program on system with 4 processors and compared to single processor system. The value of α is ____.,4,8,16,18,A
+31,Assume that we have a dataset containing information about 100 individuals. 70 out of these individuals have purchased life insurance. A supervised data mining session has discovered the following rule:\
+Rule : Age < = 30 → life insurance = yes.\
+Rule Coverage = 63%\
+Rule Accuracy = 70%\
+How many individuals in the class life insurance = no are credit card insurance and are less than 30 years old?,18,30,18,70,A
+32,Given items as {value, weight} pairs={(40, 20), (30, 10), (20, 5)}. The capacity of knapsack=20. Find maximum value output assuming items to be divisible.,60,80,100,40,B
+33,Which of the following is the correct set of equations for oblique parallel projection?,x' = x + L * cosθ, y' = y + L * sinθ,x' = y + L * cosθ, y' = x + L * sinθ,x' = x, y' = y + L * sinθ,x' = y, y' = x + L * cosθ,A
+34,Unit testing of a software module does not test which one of the following?,Whether the functions of the module are working as per design.,Whether coding standards have been adhered to.,Whether all arithmetic statements of the module are working properly.,Whether all control statements are working properly.,B
+35,The Language L = {aⁱbⁱ | i > j > 1} is constructed from a grammar ____.,is a non-linear regular grammar,is a linear regular grammar,is a linear context-free grammar,is a non-linear context-free grammar,C
+36,Suppose, every region of a planar simple graph has 'n' vertices and 'e' edges, in a planar bounded by K edges, then (n - 2) equals to which of the following?,e(n - k),2e/(n - k),e(k - 2),2e/(n - k),B
+37,A system with 8 blocks of cache memory using LRU replacement mapped. Cache memory which is 2-way set associative algorithm. A process makes the following block references : 1, 2, 3, 4, 5, 1, 2, 6, 7, 8, 1, 2, 3, 4, 5, 6, 7, 10, 11, 15. Given following is 12, 18, 11, 5, 6, 7, 10, 15. process Assume cache is initially empty, which of the following is false?,4 conflict misses,8 compulsory misses,2 capacity misses,0 capacity misses,D
+38,A feature F can take certain values - A, B, C, D, E & F and represents grades of students from a college. Which of the following statements is true?,Feature F is an example of nominal variable.,Feature F is an example of ordinal variable.,It does not belong to any of the above.,Both (A) and (B),B
+39,Consider the following encodings E₁ = {<M> | M is a Turing machine that accepts a string w}, E₂ = {<M> | M is a Turing machine that accepts a string w}. Which of the following is true?,E₁ is decidable and E₂ is decidable.,E₁ is undecidable and E₂ is undecidable.,E₁ is undecidable and E₂ is recognizable.,E₁ is decidable and E₂ is recognizable.,B
+40,Consider the following statements to prevent WAR and WAW hazards in pipelined CPUs.\
+S1 : Register renaming is used – WAR hazard is also known as anti-dependency hazard.\
+S2 : Branch predictor is used – resolve the branch prediction hazards.,All statement(s) is/are true.,S1 and S2 only,S2 only,S1 and S3 only,B
+41,For a given relation R(A₁,A₂,A₃,A₄,A₅), what is the number of super keys if {A₁, A₂} and {A₃, A₄, A₅} are candidate keys?,2⁴⁺¹ - 2⁰⁺¹ - 2³⁺¹ + 2⁻¹ + 2⁻¹,2⁵ - 2² - 2³,2⁵ - 2² - 2³ + 1,2⁴ - 2² - 2³ + 2¹,C
+42,Which of the following statements is true?,A ⊂ E(R)\E(L(L)),B ⊆ L(L(L))\E(L),L(L(L)) ⊆ E(R),Some L(L(L)) are L(R),D
+43,The analysis performed to uncover the interesting relationships between two associated attribute value pairs is known as ____.,mining of correlation,mining of association,mining of clusters,All of the above,B
+44,A message 'CRYPTOGRAPHY' is encrypted with a key using columnar transposition cipher (ignore quotes). The encrypted message is ____.,YPHARGCYPTR,CYPHARGCYPTR,OTYRYPCPAHGR,RGYRYTIPACOH,B
+45,If G is the forest with 84 vertices and 17 connected components, then the total number of edges in G is ____.,56,38,37,27,C
+46,The matrix contains m rows and r columns. The matrix is called Sparse Matrix if ____.,total number of zero elements = m * r/2,total number of zero elements > m * r/2,total number of zero elements < m * r/2,total number of zero elements = m/n,B
+47,What is the correct way to round off x, a float to an int Y?,Y = (int) (x + 0.5),Y = (float) ((int) (x + 0.5)),Y = (int) x + 0.5,Y = (int) ((int) x + 0.5),A
+48,Which of the following systems can accommodate higher number of users and services?,GSM,GPRS,CDMA,Both GSM and CDMA,C
+49,Consider the portion of the network diagram given below. What is LF of activity C?,11,17,18,21,B
+50,A process executes the following:\
+for (i = 0; i < n; i++) fork();\
+The total number of child process created is ____.,n,2ⁿ - 1,2ⁿ,2ⁿ⁺¹ - 1,B
+51,A class contains 10 students with 6 men and 4 women. How many ways are there to select a 4-member committee with 2 men and 2 women?,80,90,60,70,B
+52,Alpha testing is usually performed by which one of the following team?,A group of friendly customers,Customers,Development team,Independent team,C
+53,Which of the following statement is wrong?,In B-tree, data pointers kept at leaf nodes.,In search tree, an unique key is repeated if search key is unique.,In linked list, leaf nodes are connected as linked list.,In B+ tree, Data pointers exist at leaf and non-leaf both types of nodes.,C
+54,Match List-I and List-II based on C++ and find the correct answer from the codes given below the list.,(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv),(a)-(iv), (b)-(ii), (c)-(iii), (d)-(i),(a)-(iii), (b)-(i), (c)-(ii), (d)-(iv),(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i),A
+55,Heuristic values are consistent if ____.,h(n₁) <= c + h(n₂),\
+h(n₁) is admissible.,h(n₁) is finite.\
+Both (B) and (C),A
+56,Match List-I and List-II and find the correct answer from the codes given below the list.,(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii),(a)-(ii), (b)-(i), (c)-(iv), (d)-(iii),(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv),(a)-(iv), (b)-(i), (c)-(ii), (d)-(iii),B
+57,In a stack, if user tries to remove an element from an empty stack, it is called ____.,Overflow,Garbage Collection,Underflow,Empty Collection,C
+58,Which of the following statements are true?\
+(i) Round Robin scheduling has a better average response time than FCFS scheduling.\
+(ii) In multi-level feedback queue scheduling, a process does not change its queue frequently.\
+(iii) Short term scheduler is invoked less frequently than long term scheduler.\
+(iv) Round Robin scheduling behaves like FCFS if its assigned time is infinite.,(i), (ii) and (iii),(ii), (iii) and (iv),(i), (iii) and (iv),(i), (ii) and (iv),C
+59,What will be the value returned by the following function when it is called with n=11?,11,1011,Function does not return any value because it goes into infinite loop,D
+60,Let N = {1, 2, 3, ..., 9} is the universal set.\
+A = {n | n < = 6}\
+B = {2, 3, 5, 7, 8}\
+D = {n | 4 < = n <= 9}, where A defines set symmetric difference is given by ____.,{1, 2, 3, 4, 5, 6, 7, 8, 9},{1, 2, 3, 7, 8, 9},{1, 2, 3, 4, 5, 6},{1, 2, 3, 4, 5},B
+61,What would be the asymptotic time complexity to find an element in the linked list?,O (n),O (n²),O (1),O (log n),A
+62,Consider the following GADGETS instance:\
+Select PRICE from GADGETS order by NAME DESC. All output tuples will be returned by the query. The tuple numbers in the GADGETS table are 1, 2, 3 and 4. The tuple number in the above tables are ____.,1, 2, 3, 4,4, 3, 2, 1,1, 2, 4, 3,3, 4, 2, 1,B
+63,At a particular time, a counting semaphore has a value '7'. Then there were six 'P' operations and 4 'V' operations performed on this semaphore. If the final value of the semaphore is 'x', then what is the value of 'x'?,1,2,3,4,C
+64,While performing Division of Floating point number systems in a computer, exponent part of the result is added with ____.,2ⁿ - 1,2⁻¹ - 1,2⁻ⁿ - 1,2ⁿ⁺¹ - 1,B
+65,Alpha-Beta Pruning is a modified version of ____.,Maximin algorithm,Minimax algorithm,Both A and B,None of these,C
+66,Computers can only perform ____ multiplication operation.,Addition; Shifting operation,Addition; Booth's algorithm,Addition; Subtraction; Booth's algorithm,Addition; Restoring method,B
+67,Agile model advocates which one of the following approaches?,“In each increment, get something “quick and dirty” delivered and thereby save time.”,“In each increment, get something simple delivered as quickly as possible, consistent with the right level of business value delivered as quickly as possible.”,“In each increment, get something of business value delivered quickly; once it has been documented and the documentation fully documented/delivered complete.,,“In each increment, get something “quick and dirty” delivered as quickly as possible; once it has been fully signed off as complete.”,B
+68,Consider the following requirement for a word-processor software: “The software should provide the import of an image with which is of .jpeg file extension having size at most 5MB”. Which of the following types of requirement this is?,Functional requirement,Non-functional requirement,Constraints on the implementation,Goal of implementation,B
+69,Bit Map is a method of ____.,keeping track of allocated blocks.,keeping track of free blocks.,keeping track of free/allocated blocks.,sorting of files.,A
+70,Data warehousing is defined as ____.,a subject oriented integrated time variant non-volatile collection of data in support of management.,selecting the right dataset for KDD.,the real discovery stage of KDD process.,All of the above,A
+71,The special memory used to store the micro routines of a computer is ____.,Control Table,Control Store,Control Step,Control Seat,B
+72,"Rabin is very honest" this statement can be completely expressed using ____.,FOPL,Semantic Net,Fuzzy Logic,All of the above,B
+73,Which of the following is true for Virtual Network Computing (VNC)?\
+(i) It is a graphical desktop-sharing system\
+(ii) VNC clients connect to a VNC server at a remote location through the TCP/IP protocol\
+(iii) Multiple clients may connect to a VNC server at the same time.\
+(iv) VNC logs into the computer, creating a virtual desktop session so that users can share the keyboard and mouse of some computers between them.,(i), (ii) and (iii),(i), (ii) and (iv),(i), (iii) and (iv),(i), (ii), (iii) and (iv),D
+74,How many numbers of different automata over the alphabets {0, 1} and {q₀, q₁, ..., qₙ} starting states?,(n+1)²,(n+1)⁴,256,512,B
+75,Address part of RAM (Random Access Memory) is designed using ____.,Decoders,Encoders,Multiplexers,None of the above,A
+76,____ allows the inclusion of virtually any type of file or document in an email message.,IMAP,POP3,MIME,SMTP,C
+77,Which of the following statement(s) is/are correct?\
+I. Hierarchical analysis is a scanning phase where the stream of characters is read and grouped into a sequence of tokens which are terminal symbols.\
+II. Semantic analysis is a constructive meaning component using the source program.\
+III. In linear analysis phase, based on a collective meaning, the tokens are categorized into nested group.,Only I,Only II,I and III,I and II,D
+78,If the region codes for the two end points of a line are 1010 and 0101 respectively, the line is ____.,completely invisible.,completely visible.,partially visible.,Can't say anything,A
+79,Consider the Languages :\
+L₁ = {aⁿ | n is x, x, x, for some x}\
+and\
+L₂ = {aⁿbⁿ | n ≥ 0} is ____.,If x > y, then L₁ ∩ L₂ = ∅,Finite,Regular but not finite,Context free but not regular,A
+80,In a virtual memory environment the minimum number of page frames that must be allocated to a running process is determined by ____.,the operating system.,the instruction set architecture.,the page size.,the physical memory size.,B
+81,What is back propagation?,It is the transmission of error back through the network to adjust the inputs.,It is the transmission of error back through function in the perceptron.,It is the transmission of error back through the network to adjust the weights of each connection so that the network can learn.,Both (A) and (B),C
+82,Which one of the following is a characteristic of a good object-oriented design?,Deep class hierarchy,Large number of methods per class,Large number of message exchanges per use case,Moderate number of methods per class,D
+83,Which of the following is not the method to represent Sparse Matrix?,Array,Linked List,Dictionary of Keys,Heap,D
+84,In cabinet projection, what is the projected length of the lines that are perpendicular to the viewing plane?,Same length as the original,Half the length of the original,Double the length of the original,Projected length does not depend on the original length.,B
+85,Which of the following is an example of L(L(1)) grammar?,S → aSb / ε,S → XY,X → aXb / ε,Y → cYd / ε,S → aSa / ε,X → aXb / ε,X → aXb / ε,B
+86,Write down the sequence of steps to be taken in designing a Fuzzy Logic Controller.,Fuzzification → Defuzzification → Rule evaluation,Rule evaluation → Fuzzification → Defuzzification,Defuzzification → Rule evaluation → Fuzzification,Rule evaluation → Fuzzification → Defuzzification,A
+87,Which of the following cryptographic methods provides perfect security?,Rotor Machine,One-time Pad Cipher,Hill Cipher,Playfair Cipher,B
+88,Which of the following is not a public-key cryptosystem?,RSA,DSS,Diffie-Hellman Key Exchange,AES,D
+89,Consider the augmented grammar given below:\
+S' → S\
+S → L = R\
+L → *R | id\
+R → L,The number of items in the set GOTO (L,=) is ____.,1,2,3,4,A
+90,Which of the following is NOT true of deadlock prevention strategies?,In deadlock prevention, the request for resources is always granted if the resulting state is safe.,In deadlock avoidance, the request for resources is always granted if the result is safe.,Deadlock avoidance is less restrictive than deadlock prevention.,Deadlock prevention requires knowledge of resource requirements a priori.,A
+91,The modules in a good software design should have which one of the following characteristics?,High cohesion, low coupling,Low cohesion, high coupling,Low cohesion, low coupling,High cohesion, high coupling,A
+92,Consider the DFA\
+M = ({q₀, q₁, q₂}, {0, 1}, δ, q₀, {q₂})\
+and its transition table is as follows.,The Language accepted by the DFA is ____.,{0}*{1}{0 + 1}*,{0}*{0 + 1}*{1},Φ,{0}*{1}{0⁰ + 10*{1}},A
+93,How many conditions have to be met if an NP-complete problem is polynomially reducible?,1,2,3,4,D
+94,In an RSA cryptosystem, participant A generates his public and private keys using two prime numbers, p = 5 and q = 11.\
+If A's public key is 37, then A's private key is ____.,13,32,37,29,D
+95,Suppose a memory system contains the cache, main memory and virtual memory access time of which are 5 nanoseconds, 100 nanoseconds and 10 milliseconds respectively. If the hit rate to cache and main memory are 0.99 and 0.9 respectively, then what is the average memory access time?,100224 ns,1224 ns,1024 ns,100024 ns,A
+96,Which of the following is useful in implementing recursion?,Stack,List,Set,Queue,A
+97,Given the following subnet IPs and corresponding subnet masks, which of the following would be the subnet IP and broadcast IP after route summarization?,172.16.0.0/22, subnet broadcast 172.16.3.255,172.16.0.0/23, subnet broadcast 172.16.1.255,172.16.0.0/24, subnet broadcast 172.16.0.255,172.16.0.0/22, subnet broadcast 172.16.3.255,A
+98,Consider a complete graph G with 4 vertices. The graph has ____ spanning trees.,8,15,16,13,C
+99,If there are 3 page frames, how many page faults will occur with the following reference string using LRU page replacement algorithm?\
+5 6 1 2 6 3 6 4 2 3 6 2 1 2 1 6 5 6 1,12,13,14,15,B
+100,Which one of the following is not true of a Sprint?,It is the fundamental process flow of Scrum.,It is one month iteration during which an incremental product functionality completed.,During a Sprint, customer feedback is continually obtained and the Sprint back log is adjusted.,Each day begins with a daily Scrum meeting.,C
+
+
+```

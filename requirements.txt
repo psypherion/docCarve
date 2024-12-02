@@ -5,3 +5,5 @@ uvicorn
 loguru
 python-multipart
 pdf2image
+google-generativeai
+httpx
