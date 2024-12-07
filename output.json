@@ -1,465 +1,467 @@
-{
-    "questions": [
-        {
-            "question_no": 1,
-            "question": "A neuron with 4 inputs has a weight vector w = [1, 2, 3, 4] and bias 0. The activation function is linear, given by f(net) = net. If the input vector is x = [5, 6, 7, 8], the output of the neuron will be",
-            "options": {
-                "a": "50",
-                "b": "59",
-                "c": "112",
-                "d": "118"
+[
+    {
+        "questions": [
+            {
+                "question_no": 1,
+                "question": "A neuron with 4 inputs has a weight vector w = [1, 2, 3, 4] and bias 0. The activation function is linear, given by f(net) = net. If the input vector is x = [5, 6, 7, 8], the output of the neuron will be",
+                "options": {
+                    "a": "50",
+                    "b": "59",
+                    "c": "112",
+                    "d": "118"
+                },
+                "answer": "d"
             },
-            "answer": "d"
-        },
-        {
-            "question_no": 2,
-            "question": "The equations 3x \u2013 y = 4 and x + 4y = 4, have",
-            "options": {
-                "a": "no solution for x > 0 and y > 0.",
-                "b": "a solution for positive x and y.",
-                "c": "no solution at all.",
-                "d": "solution for all y."
+            {
+                "question_no": 2,
+                "question": "The equations 3x \u2013 y = 4 and x + 4y = 4, have",
+                "options": {
+                    "a": "no solution for x > 0 and y > 0.",
+                    "b": "a solution for positive x and y.",
+                    "c": "no solution at all.",
+                    "d": "solution for all y."
+                },
+                "answer": "b"
             },
-            "answer": "b"
-        },
-        {
-            "question_no": 3,
-            "question": "Which of the following manages the switching function in GSM?",
-            "options": {
-                "a": "MSC",
-                "b": "BSS",
-                "c": "OSS",
-                "d": "NSS"
+            {
+                "question_no": 3,
+                "question": "Which of the following manages the switching function in GSM?",
+                "options": {
+                    "a": "MSC",
+                    "b": "BSS",
+                    "c": "OSS",
+                    "d": "NSS"
+                },
+                "answer": "b"
             },
-            "answer": "b"
-        },
-        {
-            "question_no": 4,
-            "question": "Consider the following two statements :\nS1 : In SaaS, cloud service model applications are provisioned.\nS2 : Amazon\u2019s Elastic Computing Cloud (EC2) is a well known cloud storage.",
-            "options": {
-                "a": "Both S1 and S2 are correct.",
-                "b": "S1 is correct but S2 is not correct.",
-                "c": "S1 is not correct but S2 is correct.",
-                "d": "Neither S1 nor S2 are correct."
+            {
+                "question_no": 4,
+                "question": "Consider the following two statements :\nS1 : In SaaS, cloud service model applications are provisioned.\nS2 : Amazon\u2019s Elastic Computing Cloud (EC2) is a well known cloud storage.",
+                "options": {
+                    "a": "Both S1 and S2 are correct.",
+                    "b": "S1 is correct but S2 is not correct.",
+                    "c": "S1 is not correct but S2 is correct.",
+                    "d": "Neither S1 nor S2 are correct."
+                },
+                "answer": "b"
             },
-            "answer": "b"
-        },
-        {
-            "question_no": 5,
-            "question": "Match the following :\n(a) Context free Grammar\n(b) Global register allocation\n(c) Code optimization\n(d) Semantic analysis",
-            "options": {
-                "a": "(a)-(1), (b)-(2), (c)-(3), (d)-(4)",
-                "b": "(a)-(4), (b)-(3), (c)-(2), (d)-(1)",
-                "c": "(a)-(2), (b)-(1), (c)-(4), (d)-(3)",
-                "d": "(a)-(4), (b)-(1), (c)-(2), (d)-(3)"
+            {
+                "question_no": 5,
+                "question": "Match the following :\n(a) Context free Grammar\n(b) Global register allocation\n(c) Code optimization\n(d) Semantic analysis",
+                "options": {
+                    "a": "(a)-(1), (b)-(2), (c)-(3), (d)-(4)",
+                    "b": "(a)-(4), (b)-(3), (c)-(2), (d)-(1)",
+                    "c": "(a)-(2), (b)-(1), (c)-(4), (d)-(3)",
+                    "d": "(a)-(4), (b)-(1), (c)-(2), (d)-(3)"
+                },
+                "answer": "c"
             },
-            "answer": "c"
-        },
-        {
-            "question_no": 6,
-            "question": "Consider the following relation in a database. Works(employee_name, company_name, salary).\nWhich of the following query always finds those employee names whose salary is strictly greater than employee average salary at Samsung?",
-            "options": {
-                "a": "select employee_name\nfrom Works\ngroup by company_name\nhaving avg (salary) < (select avg(salary)\nfrom Works\nwhere company_name = 'Samsung')",
-                "b": "select employee_name\nfrom Works as w,\n(select avg (salary) as avg\nfrom Works\nwhere company_name = 'Samsung')\nwhere w.salary > avg\nand company_name = 'Samsung'",
-                "c": "Both (A) and (B)",
-                "d": "Neither (A) nor (B)"
+            {
+                "question_no": 6,
+                "question": "Consider the following relation in a database. Works(employee_name, company_name, salary).\nWhich of the following query always finds those employee names whose salary is strictly greater than employee average salary at Samsung?",
+                "options": {
+                    "a": "select employee_name\nfrom Works\ngroup by company_name\nhaving avg (salary) < (select avg(salary)\nfrom Works\nwhere company_name = 'Samsung')",
+                    "b": "select employee_name\nfrom Works as w,\n(select avg (salary) as avg\nfrom Works\nwhere company_name = 'Samsung')\nwhere w.salary > avg\nand company_name = 'Samsung'",
+                    "c": "Both (A) and (B)",
+                    "d": "Neither (A) nor (B)"
+                },
+                "answer": "b"
             },
-            "answer": "b"
-        },
-        {
-            "question_no": 7,
-            "question": "What is needed by k-means clustering?",
-            "options": {
-                "a": "Distance metrics",
-                "b": "Number of clusters",
-                "c": "Initial guess as to Cluster Centroids",
-                "d": "All of the above"
+            {
+                "question_no": 7,
+                "question": "What is needed by k-means clustering?",
+                "options": {
+                    "a": "Distance metrics",
+                    "b": "Number of clusters",
+                    "c": "Initial guess as to Cluster Centroids",
+                    "d": "All of the above"
+                },
+                "answer": "d"
             },
-            "answer": "d"
-        },
-        {
-            "question_no": 8,
-            "question": "How many standard exceptions exist in C++?",
-            "options": {
-                "a": "3",
-                "b": "4",
-                "c": "7",
-                "d": "13"
+            {
+                "question_no": 8,
+                "question": "How many standard exceptions exist in C++?",
+                "options": {
+                    "a": "3",
+                    "b": "4",
+                    "c": "7",
+                    "d": "13"
+                },
+                "answer": "c"
             },
-            "answer": "c"
-        },
-        {
-            "question_no": 9,
-            "question": "Which of the following technique(s) uses interrupts to take attention of CPU by Process?",
-            "options": {
-                "a": "Programmed I/O",
-                "b": "Interrupt driven I/O",
-                "c": "Direct Memory Access (DMA)",
-                "d": "All of the above"
+            {
+                "question_no": 9,
+                "question": "Which of the following technique(s) uses interrupts to take attention of CPU by Process?",
+                "options": {
+                    "a": "Programmed I/O",
+                    "b": "Interrupt driven I/O",
+                    "c": "Direct Memory Access (DMA)",
+                    "d": "All of the above"
+                },
+                "answer": "b"
             },
-            "answer": "b"
-        },
-        {
-            "question_no": 10,
-            "question": "The statement (P ^ Q) v (\u00acP v \u00acQ) \u2192 R is",
-            "options": {
-                "a": "a tautology",
-                "b": "a contradiction",
-                "c": "neither a tautology nor a contradiction",
-                "d": "logically equivalent to \u00acP v \u00acQ \u2192 R"
+            {
+                "question_no": 10,
+                "question": "The statement (P ^ Q) v (\u00acP v \u00acQ) \u2192 R is",
+                "options": {
+                    "a": "a tautology",
+                    "b": "a contradiction",
+                    "c": "neither a tautology nor a contradiction",
+                    "d": "logically equivalent to \u00acP v \u00acQ \u2192 R"
+                },
+                "answer": "a"
             },
-            "answer": "a"
-        },
-        {
-            "question_no": 11,
-            "question": "Which of the following optimization problems can be better solved with GA?",
-            "options": {
-                "a": "0\u20131 knapsack problem",
-                "b": "Traveling salesman problem",
-                "c": "Job shop scheduling problem",
-                "d": "Optimal binary search tree construction problem"
+            {
+                "question_no": 11,
+                "question": "Which of the following optimization problems can be better solved with GA?",
+                "options": {
+                    "a": "0\u20131 knapsack problem",
+                    "b": "Traveling salesman problem",
+                    "c": "Job shop scheduling problem",
+                    "d": "Optimal binary search tree construction problem"
+                },
+                "answer": "b"
             },
-            "answer": "b"
-        },
-        {
-            "question_no": 12,
-            "question": "Under what condition a vertex combine and distribute flow in any manner?",
-            "options": {
-                "a": "It may violate edge capacities.",
-                "b": "The vertex should be a source vertex.",
-                "c": "The vertex should be a sink vertex.",
-                "d": "The vertex should be a source vertex."
+            {
+                "question_no": 12,
+                "question": "Under what condition a vertex combine and distribute flow in any manner?",
+                "options": {
+                    "a": "It may violate edge capacities.",
+                    "b": "The vertex should be a source vertex.",
+                    "c": "The vertex should be a sink vertex.",
+                    "d": "The vertex should be a source vertex."
+                },
+                "answer": "c"
             },
-            "answer": "c"
-        },
-        {
-            "question_no": 13,
-            "question": "Consider a relation R(ABCD) with functional dependencies {AB \u2192 C, C \u2192 D, D \u2192 A}.\nWhich of the following statements is true about the given scheme R?",
-            "options": {
-                "a": "I. Minimal cover for the given set F does not exist.\nII. The candidate key of the given schema R is \u2018AB\u2019.",
-                "b": "Only I",
-                "c": "Only II",
-                "d": "Neither I nor II"
+            {
+                "question_no": 13,
+                "question": "Consider a relation R(ABCD) with functional dependencies {AB \u2192 C, C \u2192 D, D \u2192 A}.\nWhich of the following statements is true about the given scheme R?",
+                "options": {
+                    "a": "I. Minimal cover for the given set F does not exist.\nII. The candidate key of the given schema R is \u2018AB\u2019.",
+                    "b": "Only I",
+                    "c": "Only II",
+                    "d": "Neither I nor II"
+                },
+                "answer": "c"
             },
-            "answer": "c"
-        },
-        {
-            "question_no": 14,
-            "question": "What is true about an Abstract class?",
-            "options": {
-                "a": "An Abstract class cannot contain a virtual function as its member.",
-                "b": "Constructor of a derived class of an Abstract class is used to create a new object.",
-                "c": "An Abstract class cannot be inherited.",
-                "d": "All of the above are true."
+            {
+                "question_no": 14,
+                "question": "What is true about an Abstract class?",
+                "options": {
+                    "a": "An Abstract class cannot contain a virtual function as its member.",
+                    "b": "Constructor of a derived class of an Abstract class is used to create a new object.",
+                    "c": "An Abstract class cannot be inherited.",
+                    "d": "All of the above are true."
+                },
+                "answer": "a"
             },
-            "answer": "a"
-        },
-        {
-            "question_no": 15,
-            "question": "What is the availability of a software with following figures?\nMean Time Between Failures (MTBF) = 60 days, Mean Time to Repair (MTTR) = 40 hours.",
-            "options": {
-                "a": "70%",
-                "b": "80%",
-                "c": "90%",
-                "d": "99%"
+            {
+                "question_no": 15,
+                "question": "What is the availability of a software with following figures?\nMean Time Between Failures (MTBF) = 60 days, Mean Time to Repair (MTTR) = 40 hours.",
+                "options": {
+                    "a": "70%",
+                    "b": "80%",
+                    "c": "90%",
+                    "d": "99%"
+                },
+                "answer": "d"
             },
-            "answer": "d"
-        },
-        {
-            "question_no": 16,
-            "question": "Which GA encoding scheme suffers from the Hamming Cliff problem?",
-            "options": {
-                "a": "Binary coded GA",
-                "b": "Real coded GA",
-                "c": "Order coded GA",
-                "d": "Tree coded GA"
+            {
+                "question_no": 16,
+                "question": "Which GA encoding scheme suffers from the Hamming Cliff problem?",
+                "options": {
+                    "a": "Binary coded GA",
+                    "b": "Real coded GA",
+                    "c": "Order coded GA",
+                    "d": "Tree coded GA"
+                },
+                "answer": "a"
             },
-            "answer": "a"
-        },
-        {
-            "question_no": 17,
-            "question": "The transport layer protocols used for real time multimedia, file transfer, DNS and email respectively are:",
-            "options": {
-                "a": "TCP \u2013 UDP \u2013 UDP \u2013 TCP",
-                "b": "UDP \u2013 TCP \u2013 UDP \u2013 TCP",
-                "c": "UDP \u2013 UDP \u2013 TCP \u2013 UDP",
-                "d": "TCP \u2013 UDP \u2013 TCP \u2013 TCP"
+            {
+                "question_no": 17,
+                "question": "The transport layer protocols used for real time multimedia, file transfer, DNS and email respectively are:",
+                "options": {
+                    "a": "TCP \u2013 UDP \u2013 UDP \u2013 TCP",
+                    "b": "UDP \u2013 TCP \u2013 UDP \u2013 TCP",
+                    "c": "UDP \u2013 UDP \u2013 TCP \u2013 UDP",
+                    "d": "TCP \u2013 UDP \u2013 TCP \u2013 TCP"
+                },
+                "answer": "b"
             },
-            "answer": "b"
-        },
-        {
-            "question_no": 18,
-            "question": "Which one of the following is the correct order in which a software project manager estimates various project parameters while using COCOMO?",
-            "options": {
-                "a": "Cost, effort, duration, size",
-                "b": "Size, effort, duration, cost",
-                "c": "Size, cost, effort, duration",
-                "d": "Size, effort, cost, duration"
+            {
+                "question_no": 18,
+                "question": "Which one of the following is the correct order in which a software project manager estimates various project parameters while using COCOMO?",
+                "options": {
+                    "a": "Cost, effort, duration, size",
+                    "b": "Size, effort, duration, cost",
+                    "c": "Size, cost, effort, duration",
+                    "d": "Size, effort, cost, duration"
+                },
+                "answer": "b"
             },
-            "answer": "b"
-        },
-        {
-            "question_no": 20,
-            "question": "The Cohen-Sutherland algorithm divides the region into ______ number of spaces.",
-            "options": {
-                "a": "4",
-                "b": "8",
-                "c": "9",
-                "d": "11"
+            {
+                "question_no": 20,
+                "question": "The Cohen-Sutherland algorithm divides the region into ______ number of spaces.",
+                "options": {
+                    "a": "4",
+                    "b": "8",
+                    "c": "9",
+                    "d": "11"
+                },
+                "answer": "c"
             },
-            "answer": "c"
-        },
-        {
-            "question_no": 21,
-            "question": "What is usually regarded as the Von-Neumann bottleneck?",
-            "options": {
-                "a": "Processor Logic Unit",
-                "b": "Control Unit",
-                "c": "Arithmetic Logic Unit",
-                "d": "Instruction Set"
+            {
+                "question_no": 21,
+                "question": "What is usually regarded as the Von-Neumann bottleneck?",
+                "options": {
+                    "a": "Processor Logic Unit",
+                    "b": "Control Unit",
+                    "c": "Arithmetic Logic Unit",
+                    "d": "Instruction Set"
+                },
+                "answer": "a"
             },
-            "answer": "a"
-        },
-        {
-            "question_no": 22,
-            "question": "An Agent is composed of ______",
-            "options": {
-                "a": "Architecture",
-                "b": "Agent Function",
-                "c": "Perceptor",
-                "d": "Architecture and Program"
+            {
+                "question_no": 22,
+                "question": "An Agent is composed of ______",
+                "options": {
+                    "a": "Architecture",
+                    "b": "Agent Function",
+                    "c": "Perceptor",
+                    "d": "Architecture and Program"
+                },
+                "answer": "d"
             },
-            "answer": "d"
-        },
-        {
-            "question_no": 23,
-            "question": "What is the identity element in the group G = {2, 4, 6, 8} under multiplication modulo 10?",
-            "options": {
-                "a": "2",
-                "b": "4",
-                "c": "6",
-                "d": "8"
+            {
+                "question_no": 23,
+                "question": "What is the identity element in the group G = {2, 4, 6, 8} under multiplication modulo 10?",
+                "options": {
+                    "a": "2",
+                    "b": "4",
+                    "c": "6",
+                    "d": "8"
+                },
+                "answer": "c"
             },
-            "answer": "c"
-        },
-        {
-            "question_no": 25,
-            "question": "How many cycles are required for a 100 MHz processor to execute a program which requires 5 seconds of CPU time?",
-            "options": {
-                "a": "107",
-                "b": "108",
-                "c": "50 \u00d7 106",
-                "d": "50 \u00d7 107"
+            {
+                "question_no": 25,
+                "question": "How many cycles are required for a 100 MHz processor to execute a program which requires 5 seconds of CPU time?",
+                "options": {
+                    "a": "107",
+                    "b": "108",
+                    "c": "50 \u00d7 106",
+                    "d": "50 \u00d7 107"
+                },
+                "answer": "d"
             },
-            "answer": "d"
-        },
-        {
-            "question_no": 26,
-            "question": "The prefix form of A \u2013 B * C + D / E is",
-            "options": {
-                "a": "+ \u2013 A * B C / D E",
-                "b": "\u2013 + A * B C / D E",
-                "c": "\u2013 A + B * C / D E",
-                "d": "\u2013 A * B C + / D E"
+            {
+                "question_no": 26,
+                "question": "The prefix form of A \u2013 B * C + D / E is",
+                "options": {
+                    "a": "+ \u2013 A * B C / D E",
+                    "b": "\u2013 + A * B C / D E",
+                    "c": "\u2013 A + B * C / D E",
+                    "d": "\u2013 A * B C + / D E"
+                },
+                "answer": "a"
             },
-            "answer": "a"
-        },
-        {
-            "question_no": 27,
-            "question": "The example(s) of Distance Vector Protocol is/are\nI. Open Shortest Path First (OSPF)\nII. Routing Information Protocol (RIP)\nIII. Interior Gateway Routing Protocol (IGRP)",
-            "options": {
-                "a": "I and II only",
-                "b": "II only",
-                "c": "I and III only",
-                "d": "II and III"
+            {
+                "question_no": 27,
+                "question": "The example(s) of Distance Vector Protocol is/are\nI. Open Shortest Path First (OSPF)\nII. Routing Information Protocol (RIP)\nIII. Interior Gateway Routing Protocol (IGRP)",
+                "options": {
+                    "a": "I and II only",
+                    "b": "II only",
+                    "c": "I and III only",
+                    "d": "II and III"
+                },
+                "answer": "d"
             },
-            "answer": "d"
-        },
-        {
-            "question_no": 28,
-            "question": "Which of the following algorithm does not face local maxima problem?",
-            "options": {
-                "a": "Simple HC",
-                "b": "Steepest Ascent HC",
-                "c": "Best First Search",
-                "d": "All of the above"
+            {
+                "question_no": 28,
+                "question": "Which of the following algorithm does not face local maxima problem?",
+                "options": {
+                    "a": "Simple HC",
+                    "b": "Steepest Ascent HC",
+                    "c": "Best First Search",
+                    "d": "All of the above"
+                },
+                "answer": "c"
             },
-            "answer": "c"
-        },
-        {
-            "question_no": 30,
-            "question": "Consider a system with processors.\nA program is given with sequential and parallel part. There is speed gain of 4 when we run this program on given system with 4 processors as compared to the single processor system. The value of \u03b1 is",
-            "options": {
-                "a": "14",
-                "b": "16",
-                "c": "12",
-                "d": "18"
+            {
+                "question_no": 30,
+                "question": "Consider a system with processors.\nA program is given with sequential and parallel part. There is speed gain of 4 when we run this program on given system with 4 processors as compared to the single processor system. The value of \u03b1 is",
+                "options": {
+                    "a": "14",
+                    "b": "16",
+                    "c": "12",
+                    "d": "18"
+                },
+                "answer": "b"
             },
-            "answer": "b"
-        },
-        {
-            "question_no": 31,
-            "question": "Assume that we have a dataset containing information on insurance customers. 50% of these individuals have purchased life insurance. A supervised data mining session has discovered the following rule:\nRule Coverage = 70%\nRule Accuracy = 63%\nHow many individuals in the class life insurance = no belong to the insurance dataset and are less than 30 years old?",
-            "options": {
-                "a": "63",
-                "b": "30",
-                "c": "70",
-                "d": "18"
+            {
+                "question_no": 31,
+                "question": "Assume that we have a dataset containing information on insurance customers. 50% of these individuals have purchased life insurance. A supervised data mining session has discovered the following rule:\nRule Coverage = 70%\nRule Accuracy = 63%\nHow many individuals in the class life insurance = no belong to the insurance dataset and are less than 30 years old?",
+                "options": {
+                    "a": "63",
+                    "b": "30",
+                    "c": "70",
+                    "d": "18"
+                },
+                "answer": "d"
             },
-            "answer": "d"
-        },
-        {
-            "question_no": 35,
-            "question": "The Language L = {an bn | n \u2265 1} is constructed from a grammar.",
-            "options": {
-                "a": "is a linear regular grammar",
-                "b": "is a linear context-free grammar",
-                "c": "is a non-linear regular grammar",
-                "d": "is a non-linear context-free grammar"
+            {
+                "question_no": 35,
+                "question": "The Language L = {an bn | n \u2265 1} is constructed from a grammar.",
+                "options": {
+                    "a": "is a linear regular grammar",
+                    "b": "is a linear context-free grammar",
+                    "c": "is a non-linear regular grammar",
+                    "d": "is a non-linear context-free grammar"
+                },
+                "answer": "b"
             },
-            "answer": "b"
-        },
-        {
-            "question_no": 43,
-            "question": "The analysis performed to uncover the interesting relationships between associated attribute-value pairs is known as",
-            "options": {
-                "a": "mining of association",
-                "b": "mining of correlation",
-                "c": "mining of clusters",
-                "d": "All of the above"
+            {
+                "question_no": 43,
+                "question": "The analysis performed to uncover the interesting relationships between associated attribute-value pairs is known as",
+                "options": {
+                    "a": "mining of association",
+                    "b": "mining of correlation",
+                    "c": "mining of clusters",
+                    "d": "All of the above"
+                },
+                "answer": "a"
             },
-            "answer": "a"
-        },
-        {
-            "question_no": 44,
-            "question": "A message \u2018CRYPTOGRAPHY\u2019 is encrypted (ignore quotes), using columnar transposition cipher with a key TABLE.\nThe encrypted message is",
-            "options": {
-                "a": "YPHARGPCYTR",
-                "b": "YPHARGTRPCY",
-                "c": "OTYPCYPHARG",
-                "d": "RGYRTYPCPAOH"
+            {
+                "question_no": 44,
+                "question": "A message \u2018CRYPTOGRAPHY\u2019 is encrypted (ignore quotes), using columnar transposition cipher with a key TABLE.\nThe encrypted message is",
+                "options": {
+                    "a": "YPHARGPCYTR",
+                    "b": "YPHARGTRPCY",
+                    "c": "OTYPCYPHARG",
+                    "d": "RGYRTYPCPAOH"
+                },
+                "answer": "a"
             },
-            "answer": "a"
-        },
-        {
-            "question_no": 47,
-            "question": "What is the correct way to round off x, a float to an int value?",
-            "options": {
-                "a": "Y = (int) (x + 0.5)",
-                "b": "Y = (int) x + 0.5",
-                "c": "Y = (int) (x + 0.5)",
-                "d": "Y = (int) ((int)x + 0.5)"
+            {
+                "question_no": 47,
+                "question": "What is the correct way to round off x, a float to an int value?",
+                "options": {
+                    "a": "Y = (int) (x + 0.5)",
+                    "b": "Y = (int) x + 0.5",
+                    "c": "Y = (int) (x + 0.5)",
+                    "d": "Y = (int) ((int)x + 0.5)"
+                },
+                "answer": "a"
             },
-            "answer": "a"
-        },
-        {
-            "question_no": 48,
-            "question": "Which of the following systems can accommodate higher number of users and services?",
-            "options": {
-                "a": "GSM",
-                "b": "GPRS",
-                "c": "CDMA",
-                "d": "Both GSM and CDMA"
+            {
+                "question_no": 48,
+                "question": "Which of the following systems can accommodate higher number of users and services?",
+                "options": {
+                    "a": "GSM",
+                    "b": "GPRS",
+                    "c": "CDMA",
+                    "d": "Both GSM and CDMA"
+                },
+                "answer": "d"
             },
-            "answer": "d"
-        },
-        {
-            "question_no": 66,
-            "question": "Computers can only perform ______ multiplication.",
-            "options": {
-                "a": "Addition; Shifting operation",
-                "b": "Addition; Booth\u2019s algorithm",
-                "c": "Addition; Subtraction; Booth\u2019s algorithm",
-                "d": "Addition; Restoring method"
+            {
+                "question_no": 66,
+                "question": "Computers can only perform ______ multiplication.",
+                "options": {
+                    "a": "Addition; Shifting operation",
+                    "b": "Addition; Booth\u2019s algorithm",
+                    "c": "Addition; Subtraction; Booth\u2019s algorithm",
+                    "d": "Addition; Restoring method"
+                },
+                "answer": "b"
             },
-            "answer": "b"
-        },
-        {
-            "question_no": 70,
-            "question": "Data warehousing is defined as",
-            "options": {
-                "a": "a subject-oriented integrated time variant database designed to support management decisions.",
-                "b": "selecting the right dataset for KDD.",
-                "c": "the real discovery stage of KDD process.",
-                "d": "All of the above"
+            {
+                "question_no": 70,
+                "question": "Data warehousing is defined as",
+                "options": {
+                    "a": "a subject-oriented integrated time variant database designed to support management decisions.",
+                    "b": "selecting the right dataset for KDD.",
+                    "c": "the real discovery stage of KDD process.",
+                    "d": "All of the above"
+                },
+                "answer": "a"
             },
-            "answer": "a"
-        },
-        {
-            "question_no": 71,
-            "question": "The special memory used to store the micro routines of a computer is ______.",
-            "options": {
-                "a": "Control Table",
-                "b": "Control Store",
-                "c": "Control Register",
-                "d": "Control Step"
+            {
+                "question_no": 71,
+                "question": "The special memory used to store the micro routines of a computer is ______.",
+                "options": {
+                    "a": "Control Table",
+                    "b": "Control Store",
+                    "c": "Control Register",
+                    "d": "Control Step"
+                },
+                "answer": "b"
             },
-            "answer": "b"
-        },
-        {
-            "question_no": 74,
-            "question": "How many numbers of different automata over the alphabets {0, 1} and states {q1, q2, q3}, where q1 always is the starting state?",
-            "options": {
-                "a": "5832",
-                "b": "256",
-                "c": "512",
-                "d": "1024"
+            {
+                "question_no": 74,
+                "question": "How many numbers of different automata over the alphabets {0, 1} and states {q1, q2, q3}, where q1 always is the starting state?",
+                "options": {
+                    "a": "5832",
+                    "b": "256",
+                    "c": "512",
+                    "d": "1024"
+                },
+                "answer": "a"
             },
-            "answer": "a"
-        },
-        {
-            "question_no": 78,
-            "question": "If the region codes for the two end points of a line are 1010 and 0110 respectively, the line is",
-            "options": {
-                "a": "completely visible.",
-                "b": "completely invisible.",
-                "c": "partially visible.",
-                "d": "Can\u2019t say anything"
+            {
+                "question_no": 78,
+                "question": "If the region codes for the two end points of a line are 1010 and 0110 respectively, the line is",
+                "options": {
+                    "a": "completely visible.",
+                    "b": "completely invisible.",
+                    "c": "partially visible.",
+                    "d": "Can\u2019t say anything"
+                },
+                "answer": "b"
             },
-            "answer": "b"
-        },
-        {
-            "question_no": 82,
-            "question": "Which one of the following is a characteristic of a good object-oriented design?",
-            "options": {
-                "a": "Deep class hierarchy",
-                "b": "Large number of methods per class",
-                "c": "Large number of message exchanges per use case",
-                "d": "Moderate number of methods per class"
+            {
+                "question_no": 82,
+                "question": "Which one of the following is a characteristic of a good object-oriented design?",
+                "options": {
+                    "a": "Deep class hierarchy",
+                    "b": "Large number of methods per class",
+                    "c": "Large number of message exchanges per use case",
+                    "d": "Moderate number of methods per class"
+                },
+                "answer": "d"
             },
-            "answer": "d"
-        },
-        {
-            "question_no": 86,
-            "question": "Write down the sequence of steps to be taken in designing a Fuzzy Logic Controller.",
-            "options": {
-                "a": "Defuzzification \u2192 Rule evaluation \u2192 Fuzzification",
-                "b": "Fuzzy sets \u2192 Defuzzification \u2192 Rule evaluation",
-                "c": "Fuzzification \u2192 Rule evaluation \u2192 Defuzzification",
-                "d": "Rule evaluation \u2192 Fuzzification \u2192 Defuzzification"
+            {
+                "question_no": 86,
+                "question": "Write down the sequence of steps to be taken in designing a Fuzzy Logic Controller.",
+                "options": {
+                    "a": "Defuzzification \u2192 Rule evaluation \u2192 Fuzzification",
+                    "b": "Fuzzy sets \u2192 Defuzzification \u2192 Rule evaluation",
+                    "c": "Fuzzification \u2192 Rule evaluation \u2192 Defuzzification",
+                    "d": "Rule evaluation \u2192 Fuzzification \u2192 Defuzzification"
+                },
+                "answer": "c"
             },
-            "answer": "c"
-        },
-        {
-            "question_no": 88,
-            "question": "Which of the following is not a public-key cryptosystem?",
-            "options": {
-                "a": "RSA",
-                "b": "ElGamal",
-                "c": "DSS",
-                "d": "AES"
+            {
+                "question_no": 88,
+                "question": "Which of the following is not a public-key cryptosystem?",
+                "options": {
+                    "a": "RSA",
+                    "b": "ElGamal",
+                    "c": "DSS",
+                    "d": "AES"
+                },
+                "answer": "d"
             },
-            "answer": "d"
-        },
-        {
-            "question_no": 90,
-            "question": "Which of the following is NOT true of deadlock prevention strategies?",
-            "options": {
-                "a": "In deadlock prevention, the request for resources is always granted if the resulting state is safe.",
-                "b": "Deadlock avoidance is less restrictive than deadlock prevention.",
-                "c": "In deadlock avoidance, the request for resources is always granted if the result of deadlock avoidance requires knowledge of resource requirements a priori."
-            },
-            "answer": "a"
-        }
-    ]
-}
+            {
+                "question_no": 90,
+                "question": "Which of the following is NOT true of deadlock prevention strategies?",
+                "options": {
+                    "a": "In deadlock prevention, the request for resources is always granted if the resulting state is safe.",
+                    "b": "Deadlock avoidance is less restrictive than deadlock prevention.",
+                    "c": "In deadlock avoidance, the request for resources is always granted if the result of deadlock avoidance requires knowledge of resource requirements a priori."
+                },
+                "answer": "a"
+            }
+        ]
+    }
+]
