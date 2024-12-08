@@ -1,4 +1,4 @@
-# xmpaperAnalyzer
+# xampaperAnalyzer
 
 xmpaperAnalyzer is a Python project designed to analyze exam question papers by extracting questions, categorizing them based on a provided syllabus, and analyzing trends across topics and subtopics. It converts JSON question data into a structured pandas DataFrame for further analysis, including generating leaderboards for frequent topics and subtopics.
 
@@ -21,7 +21,7 @@ xmpaperAnalyzer is a Python project designed to analyze exam question papers by 
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/xmpaperAnalyzer.git
+    git clone https://github.com/psypherion/xampaperAnalyzer.git
     cd xmpaperAnalyzer
     ```
 
